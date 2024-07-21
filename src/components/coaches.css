@@ -1,0 +1,75 @@
+/* src/components/coaches.css */
+.coaches-page {
+    text-align: center;
+    padding: 2rem;
+    background-color: #7bed9f;
+  }
+  
+  .coaches-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .sort-container {
+    margin-bottom: 2rem;
+  }
+  
+  .sort-container label {
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .coaches-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .coach-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Increased card size */
+    text-align: center; /* Centered text */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .coach-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .coach-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .coach-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .coach-card p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .coach-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .coach-card li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  

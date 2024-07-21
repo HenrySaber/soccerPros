@@ -1,0 +1,86 @@
+/* src/components/ourProcess.css */
+.our-process {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 2rem 0;
+  }
+  
+  .video-section {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(../pictures/bettersoccer.jpeg); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 30%; /* Adjust the height to make it shorter vertically */
+    height: 0;
+    overflow: hidden;
+    max-width: 50%; /* Smaller video size */
+    margin: 0 auto;
+    border: 2px solid white; /* Add a border to make it stand out */
+    border-radius: 10px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .how-to-get-started {
+    padding: 2rem;
+  }
+  
+  .how-to-get-started h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .step img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  

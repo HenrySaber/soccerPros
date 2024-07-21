@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333; /* Adjust background color as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+}
+
+.logo img {
+  width: 150px; /* Adjust width to make the logo bigger */
+  height: auto;
+}
+
+.nav {
+  flex-grow: 1; /* Allow nav to grow to take up available space */
+  text-align: center; /* Center the nav items */
+}
+
+.nav ul {
+  display: inline-block; /* Center the nav items horizontally */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem; /* Increase font size for better visibility */
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s, transform 0.3s; /* Add transition effects */
+}
+
+.nav ul li a:hover {
+  color: #1e90ff; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the text on hover */
+}
+
+.join-btn {
+  background-color: #1e90ff; /* Button background color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold; /* Make the button text bold */
+  transition: background-color 0.3s, transform 0.3s; /* Add transition effects */
+}
+
+.join-btn:hover {
+  background-color: #1c86ee; /* Button hover effect */
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}

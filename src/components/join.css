@@ -1,0 +1,150 @@
+.join-page {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.join-page h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.join-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem; /* Reduced gap */
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.join-form, .confirmation-page {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-field input::placeholder {
+  color: #aaa;
+}
+
+button[type="submit"], .confirmation-page button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+button[type="submit"]:hover, .confirmation-page button:hover {
+  background-color: #1c86ee;
+}
+
+.plan-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem; /* Reduced gap */
+  width: 100%;
+  max-width: 1100px;
+  flex-wrap: wrap;
+}
+
+.plan {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Increased width */
+  text-align: left;
+}
+
+.plan h2 {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.2rem;
+  margin: -1rem -1rem 0.5rem -1rem;
+}
+
+.amateur-plan h2 {
+  background-color: #1e90ff;
+}
+
+.pro-plan h2 {
+  background-color: #32cd32;
+}
+
+.ultimate-plan h2 {
+  background-color: #ff4500;
+}
+
+.price {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.plan ul {
+  padding-left: 1rem;
+  list-style: disc;
+}
+
+.plan ul li {
+  margin-bottom: 0.25rem;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.confirmation-page {
+  text-align: left;
+}
+
+.confirmation-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.confirmation-page p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}

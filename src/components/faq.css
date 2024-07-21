@@ -1,0 +1,92 @@
+/* src/components/FAQ.css */
+.faq-page {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .faq-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .faq-page p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .faq-item {
+    width: 80%;
+  }
+  
+  .faq-question {
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.25rem;
+  }
+  
+  .faq-answer {
+    display: none;
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  
+  .faq-question:focus + .faq-answer,
+  .faq-answer:focus {
+    display: block;
+  }
+  
+  .faq-form {
+    background-color: #444;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .faq-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .faq-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  .faq-form button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .faq-form button:hover {
+    background-color: #1c86ee;
+  }
+  

@@ -1,0 +1,16 @@
+/* src/App.css */
+section {
+  padding: 4rem 2rem;
+  margin: 2rem 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+body {
+  scroll-behavior: smooth;
+}
